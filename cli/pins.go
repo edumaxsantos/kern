@@ -44,7 +44,7 @@ func GetPin(pin string) (Pin, error) {
 	value, ok := Pins[pin]
 
 	if !ok {
-		return 0, errors.New("Pin not found")
+		return 0, errors.New("pin not found")
 	}
 
 	return value, nil
