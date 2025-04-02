@@ -49,8 +49,7 @@ func WaitForData(sub chan []byte) tea.Cmd {
 
 		log.Println("Got a message from the channel")
 
-		message, err := De
-		code(value)
+		message, err := Decode(value)
 		if err != nil {
 			log.Fatalf("We got error: %s. Value is: %x\nIn string: %s\n", err, value, string(value))
 		}
