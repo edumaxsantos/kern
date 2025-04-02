@@ -112,5 +112,7 @@ func Decode(encoded []byte) (*Message, error) {
 		return nil, errors.New("checksum mismatch")
 	}
 
+	message.Checksum = calculatedChecksum
+
 	return message, nil
 }
