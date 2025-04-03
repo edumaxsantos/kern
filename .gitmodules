@@ -2,9 +2,10 @@
 	path = bluekern
 	url = git@github.com:edumaxsantos/bluekern.git
 	branch = master
-[submodule "cli"]
-	path = cli
-	url = cli
+[submodule "greenkern"]
+	path = greenkern
+	url = git@github.com:edumaxsantos/greenkern.git
+	branch = master
 [submodule "arduino-uno"]
 	path = arduino-uno
 	url = arduino-uno
