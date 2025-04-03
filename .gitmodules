@@ -1,0 +1,9 @@
+[submodule "bluekern"]
+	path = bluekern
+	url = .\\bluekern\\
+[submodule "cli"]
+	path = cli
+	url = .\\cli\\
+[submodule "arduino-uno"]
+	path = arduino-uno
+	url = .\\arduino-uno\\

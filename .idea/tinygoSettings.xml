@@ -7,10 +7,5 @@
     <option name="goTags" value="avr baremetal linux arm atmega328p atmega avr5 arduino tinygo purego osusergo math_big_pure_go gc.conservative scheduler.none serial.uart" />
     <option name="scheduler" value="none" />
     <option name="targetPlatform" value="arduino" />
-    <option name="userTargets">
-      <list>
-        <option value="arduino" />
-      </list>
-    </option>
   </component>
 </project>
