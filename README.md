@@ -1,4 +1,4 @@
-# Tiny-Go-Cli
+# Kern
 
 This project aims to be a simple way to communicate with your arduino projects using a terminal app.
 
