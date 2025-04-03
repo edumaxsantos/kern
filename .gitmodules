@@ -1,6 +1,7 @@
 [submodule "bluekern"]
 	path = bluekern
 	url = git@github.com:edumaxsantos/bluekern.git
+	branch = master
 [submodule "cli"]
 	path = cli
 	url = cli
